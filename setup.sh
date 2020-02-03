@@ -20,5 +20,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 upgrade_oh_my_zsh
 
 # development applications
+brew cask install docker
 brew cask install pycharm
 brew cask install visual-studio-code
