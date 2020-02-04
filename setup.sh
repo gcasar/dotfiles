@@ -23,3 +23,4 @@ upgrade_oh_my_zsh
 brew cask install docker
 brew cask install pycharm
 brew cask install visual-studio-code
+brew cask install mysqlworkbench
