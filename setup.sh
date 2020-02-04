@@ -24,3 +24,6 @@ brew cask install docker
 brew cask install pycharm
 brew cask install visual-studio-code
 brew cask install mysqlworkbench
+
+brew install python3
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
