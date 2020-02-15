@@ -27,3 +27,6 @@ brew cask install mysqlworkbench
 
 brew install python3
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
+
+brew install node
+brew install yarn
