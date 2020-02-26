@@ -28,3 +28,5 @@ brew install python3
 
 brew install node
 brew install yarn
+
+brew install mysql
