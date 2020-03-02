@@ -1,0 +1,15 @@
+vmap v :action EditorSelectWord<CR>
+nmap v :action EditorSelectWord<CR>
+vmap V :action EditorUnSelectWord<CR>
+
+noremap gd :action GotoDeclaration<CR>
+noremap gi :action GotoImplementation<CR>
+noremap ge :action GotoNextError<CR>
+noremap gE :action GotoPreviousError<CR>
+noremap gc :action VcsShowNextChangeMarker<CR>
+noremap gC :action VcsShowPrevChangeMarker<CR>
+
+let mapleader=","
+set easymotion
+set surround
+set multiple-cursors
