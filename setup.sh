@@ -30,3 +30,5 @@ brew install node
 brew install yarn
 
 brew install mysql
+
+brew install kustomize
