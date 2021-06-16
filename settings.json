@@ -1,0 +1,42 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "window.zoomLevel": 1.25,
+    "editor.fontFamily": "'Fira code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "editor.fontLigatures": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.tokenColorCustomizations": {
+        "strings": "#008080",
+        "comments": "#aaa",
+        "keywords": "#0033B3",
+        "numbers": "#1750EB",
+        "functions": "#000",
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.control.go",
+                    "constant.language.go",
+                    "constant.language",
+                    "keyword",
+                    "storage.type"
+                ],
+                "settings": {
+                    "foreground": "#0033B3"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#eee",
+        "editorLineNumber.foreground": "#aaa"
+    },
+    "go.useLanguageServer": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.formatTool": "goimports"
+}
