@@ -1,5 +1,19 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
+    {
+        "key": "cmd+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active && terminalFocus"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
     {
         "key": "F1",
         "command": "editor.action.showHover",
@@ -9,5 +23,12 @@
         "key": "cmd+p",
         "command": "editor.action.triggerParameterHints",
         "when": "editorTextFocus"
-    }
+    },
+    {
+        "key": "cmd+/",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "multiCommand.commentDown"
+        },
+    },
 ]
